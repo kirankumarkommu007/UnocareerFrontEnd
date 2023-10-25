@@ -1,0 +1,37 @@
+#input1{
+    height: 35px;
+    width: 150px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+#input2{
+    height: 35px;
+    width: 500px;
+    border-radius: 18px;
+    border-style:none;
+    box-shadow: 0 0 5px rgb(147, 147, 149); /* Add a shadow effect */
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+#button1{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: blue;
+  color: white;
+  margin-left: 80px;
+}
+#button2{
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+    align-items: center;
+  }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9</title>
+    <style>
+        #border4 {
+        width: 160px;
+        height: 240px;
+        padding: 10px;  
+        } 
+        #border5 {
+        width: 140px;
+        height: 240px;
+        box-shadow: 0 0 5px rgb(147, 147, 149);
+        border-radius: 8px;
+        display: inline-block;
+
+        } 
+        #friend{
+            height: 30px;
+            width: 80px;
+            margin-left: 10px;
+            background-color: blue;
+            color: white;
+            border-style: none;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <Div style="display: flex;">
+        <div>
+            <img src="D:\Unocareer Front End\Excercise\Day9\1.png" style="height: 400px; width: 450px;">
+        </div>
+        <div>
+            <img src="D:\Unocareer Front End\Excercise\Day9\2.png" style="height: 400px; width: 450px; margin-left: 10px;">
+        </div>
+    </Div>
+       <br>
+        <div style="display: grid; grid-template-columns: 200px 75px;"> 
+            <div style="background-color: rgb(184, 221, 243);height: 20px;">
+             200px
+            </div>
+            <div style="background-color: pink;height: 20px">
+            75px
+            </div>
+        </div>
+        <br>
+        <div style="display: grid; grid-template-columns: 50px 1fr 75px;"> 
+            <div style="background-color: rgb(184, 221, 243);height: 20px;">
+             col1
+            </div>
+            <div style="background-color: pink;height: 20px">
+            col2
+            </div>
+            <div style="background-color: rgb(192, 228, 255);height: 20px">
+            col3
+            </div>
+
+        </div>
+         <br>
+        <div style="display: grid; grid-template-columns: 100px 100px 100px 100px; grid-gap: 20px;"> 
+            <div style="display: grid; grid-row-gap: 10px;">
+              <div style="background-color: pink;height: 20px">
+                 col1
+              </div>
+              <div style="background-color:pink;height: 20px">
+                 col5
+              </div>
+            </div>
+            <div style="display: grid; grid-row-gap: 10px;">
+                <div style="background-color: pink;height: 20px">
+                   col2
+                </div>
+                <div style="background-color:pink;height: 20px">
+                   col6
+                </div>
+            </div>
+            <div style="display: grid; grid-row-gap: 10px;">
+                <div style="background-color: pink;height: 20px">
+                   col3
+                </div>
+                <div style="background-color:pink;height: 20px">
+                   col7
+                </div>
+            </div>
+            <div style="display: grid; grid-row-gap: 10px;">
+                <div style="background-color: pink;height: 20px">
+                   col4
+                </div>
+                <div style="background-color:pink;height: 20px">
+                   col8
+                </div>
+            </div>
+        </div>
+         <br>
+
+        <div style="display: inline-block;">
+            <div id="border4" style="display: inline-block;">
+                <div>
+                    <img src="Beautiful_Cat_Imge_Download.jpg" style="width: 120px;height: 120px;margin-top: 10px;margin-left: 10px;display: inline-block;">
+                </div>
+                <div style="margin-left: 10px;">
+                    Oliver
+                </div>
+                <div style="display: inline-block;vertical-align: middle;justify-content: center;vertical-align: top;">
+                    <img src="th.jpeg" style="height: 20px;width: 20px;border-radius: 10px;margin-left: 10px;">
+                    <p style="display: inline-block;">2 mutual friends</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
